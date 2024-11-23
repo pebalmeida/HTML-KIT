@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    background-attachment: fixed;
+}
+
+section:nth-of-type(1){
+    background-image: url(imagem_Z/goku_dinkidama.jpg);
+    height: 600px;
+}
+
+section:nth-of-type(2){
+    background-image: url(imagem_Z/goku_formas.jpg);
+    height: 600px;
+}
+
+section:nth-of-type(3){
+    background-image: url(imagem_Z/goku_formas2.jpg);
+    height: 600px;
+}
+
+section:nth-of-type(4){
+    background-image: url(imagem_Z/goku_supersaiyin3.jpg);
+    height: 600px;
+}
+
+section:nth-of-type(5){
+    background-image: url(imagem_Z/goku_supersaiyin4.jpg);
+    height: 600px;
+}
+
+section:nth-of-type(6){
+    background-image: url(imagem_Z/goku_supersaiyinDeus.jpg);
+    height: 600px;
+}
+
+section:nth-of-type(7){
+    background-image: url(imagem_Z/personagens_dragon_ball_z.jpg);
+    height: 600px;
+}
+
