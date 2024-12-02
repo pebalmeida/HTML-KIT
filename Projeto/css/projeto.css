@@ -1,0 +1,269 @@
+/* geral */
+body, p, input, h1, h2, textarea{
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+
+}
+
+h2{
+    font-size:35px;
+}
+
+/* navbar*/
+
+#navbar{
+    background-color: darkturquoise;
+    color: beige;
+    padding: 0 20px;
+    height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav{
+    display: inline-block;
+}
+
+#navbar h2{
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img{
+    height: 40px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 10px;
+}
+
+#navbar nav{
+    float: right;
+   
+}
+
+#navbar ul{
+    margin-top: 23px;
+}
+
+#navbar li{
+    margin: 0 15px;
+}
+
+#navbar-list li a{
+    text-decoration: none;
+    color: aqua;
+}
+
+#navbar-list li a:hover{
+    border-bottom: 3px dotted crimson;
+}
+
+/* banner */
+
+#main-banner{
+    height: 70vh;
+    background-image: url('../img/bg-projeto.jpg');
+    background-size: cover;
+    padding-top: 16vh;
+}
+
+#banner-info{
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: aqua;
+    padding: 55px;
+}
+
+#banner-info img{
+    height: 124px;
+    border-radius: 60%;
+    background-color: darkturquoise;
+    margin-top: 34px;
+    margin-bottom: 35px;
+}
+
+#banner-info p{
+    background-color: beige;
+    font-weight: bolder;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 18px;
+}
+
+/*about*/
+
+#about-section{
+    text-align: center;
+    background-color: darkturquoise;
+    color: beige;
+    padding-top: 60px;
+    height: 400px;
+}
+
+#about-section h2{
+    margin-bottom: 25px;
+}
+
+
+#about-section p{
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 35px;
+}
+
+/*skills*/
+
+#skills-section{
+    margin-top: -100px;
+    background-color: beige;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px groove darkmagenta;
+    border-radius: 15px;
+}
+
+#skills-section .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container{
+    flex: 1 1 1;
+    text-align: center;
+    padding: 63px 26px;
+}
+
+.central{
+    border-left: 2px dotted crimson;
+    border-right: 2px dotted crimson;
+}
+
+.skills-container h3{
+    color: darkturquoise;
+    font-size: 23px;
+}
+
+.skills-container img{
+    height: 59px;
+    padding: 17px;
+    margin-bottom: 29px;
+    border-top: 2px groove green;
+    border-left: 2px groove green;
+    border-bottom: 5px groove green;
+    border-right: 5px groove green;
+}
+
+.skills-container .subtitle{
+    font-weight: bolder;
+    color: darkturquoise;
+    margin-top: 60px;
+    margin-bottom: 16px;
+    
+}
+
+.skills-container p{
+    line-height:30px;
+
+}
+
+
+/*jobs*/
+
+#jobs-section{
+    text-align: center;
+    padding-top: 55px;
+}
+
+#jobs-section h2{
+    color: aqua;
+    margin-bottom: 35px;
+}
+
+#jobs-section p{
+    margin-bottom: 55px;
+}
+
+#jobs-section a{
+    font-weight: bolder;
+    color: darkturquoise;
+}
+
+.jobs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 55px;
+}
+
+.jobs-box{
+    flex: 1 1 250px;
+    margin-left: 26px;
+    margin-right: 26px;
+    height: 350px;
+    background-size: cover;
+    border-right: 3px groove crimson;
+    border-bottom: 3px groove crimson;
+}
+
+.proj1{
+    background-image: url('../img/proj1.jpg');
+}
+
+.proj2{
+    background-image: url('../img/proj2.jpg');
+}
+
+.proj3{
+    background-image: url('../img/proj3.jpg');
+}
+
+
+/*footer*/
+
+footer{
+    padding: 60px 0;
+    background-color: darkturquoise;
+    color: beige;
+    text-align: center;
+}
+
+footer img{
+    height: 60px;
+    margin: 40px 0;
+
+}
+
+footer p{
+    margin-top: 30px;
+}
+
+footer form{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input, footer textarea{
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    width: 150%;
+    display: block;
+}
+
+footer .detail{
+    font-weight: bolder;
+}
+
+
+
+
